@@ -1,0 +1,82 @@
+// Header Global Styles 
+header,
+.headerBlog,
+.headerContact {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+header {
+    background-image: url("../the-restaurant-mall-assets/home-header.jpg");
+    height: 85vh;  
+}
+
+nav {
+    position: relative;
+}
+
+nav ul{
+    position: absolute;
+    left: 100px;
+}
+
+h1 {
+    position: relative;
+    top: 130px;
+    left: 100px;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: $secondary;
+}
+
+header .imgBox {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    right: 0;
+    bottom: -65vh;
+    width: 52%;
+}
+
+
+// Blog Header Unique Styles
+
+.headerBlog {
+    background-image: url("../the-restaurant-mall-assets/blog-header.jpg");
+    height: 70vh;
+}
+
+.headerBlog ul {
+    position: absolute;
+    left: 50px
+}
+
+.headerBlog h1 {
+    position: absolute;
+    top: 220px
+}
+
+
+
+
+
+// Contact Header Unique Styles
+
+.headerContact {
+    background-image: url("../the-restaurant-mall-assets/contact-header.jpg");
+    height: 70vh;
+}

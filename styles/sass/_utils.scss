@@ -1,0 +1,30 @@
+$primary: #2B331B;
+$secondary: #FFFFFF;
+$tertiary: #FFD300;
+
+$almostBlack: #171B0E;
+$black: #0F0F0F;
+
+// make footer p tag #0
+
+// add class of .greenDarken to form on Contact.html
+.section2, 
+.section6,
+main,
+.mainBlog aside {
+    background-color: $almostBlack;
+}
+
+section,
+.headerBlog section,
+.headerContact section {
+    background-color: $primary;
+}
+
+
+// header {
+//     height: 90vh;
+//     background-image: url("../../the-restaurant-mall-assets/home-header.jpg");
+//     background-size: cover;
+//     background-position: center;
+// }

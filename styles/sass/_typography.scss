@@ -1,0 +1,86 @@
+// font-family: 'Barlow', sans-serif;
+// font-family: 'Josefin Sans', sans-serif;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: $secondary;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+button {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+h1,
+h2,
+h3 {
+    line-height: 99.8px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 69px;
+    // at media query 950px update font size
+    width: 30%;
+}
+
+h1 span {
+    background-color: $secondary;
+    color: $black;
+    padding: 15px 5px 0 5px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.section5 h3 {
+    display: inline-block;
+}
+
+// Yellow h3 heading styling
+.section3 h3,
+.section5 h3,
+.mainBlog h3,
+.mainBlog h4,
+.mainBlog h5 {
+    color: $tertiary;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 25px;
+    line-height: 58px;
+    letter-spacing: 0.8px;
+}
+
+
+
+nav {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+button {
+    font-size: 22.4;
+    line-height: 41.6px;
+}
