@@ -487,6 +487,7 @@ i.fa-phone {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: relative;
 }
 
 .section2 li {
@@ -506,44 +507,26 @@ i.fa-phone {
   width: 40%;
 }
 
-.section2 .topImg,
-.section2 .bottomImg {
-  background-color: #FFD300;
-  height: 325px;
-  position: relative;
-  z-index: 10;
-}
-
-.section2 .topImg div {
-  display: sticky;
-  background-color: red;
-  height: 37.4vh;
+.section2 img {
   width: 100%;
-  z-index: 0;
-  position: absolute;
-  top: -13px;
-  right: 0px;
 }
 
-.section2 li .greenDiv {
-  background-color: green;
-  width: 3.5%;
-  z-index: 30;
-  position: absolute;
-  top: 38px;
-  left: 0px;
+.section2 .topImg {
+  -webkit-box-shadow: 20px 20px #FFD300;
+          box-shadow: 20px 20px #FFD300;
+  background-image: url("../the-restaurant-mall-assets/left-image.jpg");
+  height: 400px;
+  width: 100%;
+  translate: 0 -40px;
 }
 
-.section2 .topImg img,
-.section2 .bottomImg img {
-  position: absolute;
-}
-
-.section2 .topImg img {
-  top: -93px;
-  left: -50px;
-  z-index: 40;
-  width: 3000%;
+.bottomImg {
+  -webkit-box-shadow: -20px 20px #FFD300;
+          box-shadow: -20px 20px #FFD300;
+  background-image: url("../the-restaurant-mall-assets/right-image.jpg");
+  height: 400px;
+  width: 100%;
+  translate: 0 40px;
 }
 
 .section2 .topContent,
@@ -569,10 +552,6 @@ i.fa-phone {
 
 .section2 .bottomContent__para {
   text-align: right;
-}
-
-.section2 img {
-  width: 100%;
 }
 
 .section2 [type="button"] {
