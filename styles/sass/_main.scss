@@ -205,7 +205,7 @@ i.fa-phone {
 
 .mainBlog .blogImg {
     position: relative;
-    top: -700px;
+    top: -600px;
 }
 
 .blogSideImgBox {
@@ -255,7 +255,7 @@ i.fa-phone {
 
 .mainBlog article {
     position: relative;
-    top: -700px;
+    top: -600px;
 }
 
 .mainBlog ul{
@@ -299,8 +299,8 @@ aside li:last-child {
 }
 
 article {
-    width: 56.7%;
-    box-shadow: -10px 10px $tertiary;
+    width: 57%;
+    box-shadow: -6px 6px $tertiary;
 }
 
 .blogContent {
@@ -334,11 +334,6 @@ article.blogComment {
     width: 200%;
 }
 
-// .blogComment p {
-//     // width: 100%;
-//     // padding-top: 10px;
-// }
-
 .h5Yellow.h5Top,
 .blogComment .blogCommentContentTop p {
     margin-left: 100px;
@@ -356,8 +351,60 @@ article.blogComment {
 
 .blogComment p {
     width: 87%;
-    
 }
 
 // Blog Form Styles
 
+form {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 100px;
+}
+
+legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-strt;
+    width: 65%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: $primary;
+    color: $secondary;
+    padding: 10px 0 20px 40px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    opacity: 1;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: none;
+    border-bottom: $tertiary 2px solid;
+    margin-right: 50px;
+    width: 42%;
+}
+
+textarea,
+form input[type="button"] {
+    margin-top: 40px;
+        width: 91%;
+}
+textarea {
+    border: $tertiary 2px solid;
+    padding: 30px;
+    font-size: 19px;
+}
+
+form input[type="button"] {
+    background-color: $tertiary;
+    border: $tertiary;
+    color: $black;
+    padding: 10px 0;
+}

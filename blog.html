@@ -62,7 +62,7 @@
                     </div>
                 </article>
             </div>
-            <div class="wrapper">
+            <div class="wrapper blogCommentBox">
                 <article class="blogComment">
                     <ul class="wrapper3">
                         <h3>comments:</h3>
@@ -87,18 +87,20 @@
                     </ul>
                 </article>
             </div>
-            <form action="#">
-                <legend>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name">
-                    <label for="email">Email address</label>
-                    <input type="email" name="email" id="email">
-                    <label for="comment">Comment</label>
-                    <input type="text" for="comment">Comment</input>
-                    <label for="postComment">post comment</label>
-                    <input type="button" value="post comment" name="postComment" id="postComment">
-                </legend>
-            </form>
+            <div class="wrapper3">
+                <form action="#">
+                    <legend>
+                        <label class="visuallyHidden srOnly" for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <label class="visuallyHidden srOnly" for="email">Email address</label>
+                        <input type="email" name="email" id="email" placeholder="Email address">
+                        <label class="visuallyHidden srOnly" for="comment">Comment</label>
+                        <textarea name="comment" id="" cols="50" rows="10" id="comment" placeholder="Comment"></textarea>
+                        <label class="visuallyHidden srOnly" for="postComment">post comment</label>
+                        <input type="button" value="post comment" name="postComment" id="postComment">
+                    </legend>
+                </form>
+            </div>
         </section>
     </main>
     <footer>

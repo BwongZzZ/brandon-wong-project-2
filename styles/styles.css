@@ -664,7 +664,7 @@ i.fa-phone {
 
 .mainBlog .blogImg {
   position: relative;
-  top: -700px;
+  top: -600px;
 }
 
 .blogSideImgBox {
@@ -722,7 +722,7 @@ i.fa-phone {
 
 .mainBlog article {
   position: relative;
-  top: -700px;
+  top: -600px;
 }
 
 .mainBlog ul {
@@ -782,9 +782,9 @@ aside li:last-child {
 }
 
 article {
-  width: 56.7%;
-  -webkit-box-shadow: -10px 10px #FFD300;
-          box-shadow: -10px 10px #FFD300;
+  width: 57%;
+  -webkit-box-shadow: -6px 6px #FFD300;
+          box-shadow: -6px 6px #FFD300;
 }
 
 .blogContent {
@@ -840,6 +840,88 @@ article.blogComment {
 
 .blogComment p {
   width: 87%;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  bottom: 100px;
+}
+
+legend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: flex-strt;
+      -ms-flex-pack: flex-strt;
+          justify-content: flex-strt;
+  width: 65%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: #2B331B;
+  color: #FFFFFF;
+  padding: 10px 0 20px 40px;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+input[type="text"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  opacity: 1;
+}
+
+input[type="text"]::-ms-input-placeholder,
+input[type="email"]::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  opacity: 1;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  opacity: 1;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: none;
+  border-bottom: #FFD300 2px solid;
+  margin-right: 50px;
+  width: 42%;
+}
+
+textarea,
+form input[type="button"] {
+  margin-top: 40px;
+  width: 91%;
+}
+
+textarea {
+  border: #FFD300 2px solid;
+  padding: 30px;
+  font-size: 19px;
+}
+
+form input[type="button"] {
+  background-color: #FFD300;
+  border: #FFD300;
+  color: #0F0F0F;
+  padding: 10px 0;
 }
 
 footer {
