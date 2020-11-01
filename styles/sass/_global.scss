@@ -21,6 +21,18 @@ body {
     margin: 0 auto;
 }
 
+nav {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+button {
+    font-size: 22.4;
+    line-height: 41.6px;
+}
+
 [type="button"] {
     text-transform: uppercase;
 }
