@@ -1,3 +1,5 @@
+// Colour Variables Styles
+
 $primary: #2B331B;
 $secondary: #FFFFFF;
 $tertiary: #FFD300;
@@ -5,9 +7,6 @@ $tertiary: #FFD300;
 $almostBlack: #171B0E;
 $black: #0F0F0F;
 
-// make footer p tag #0
-
-// add class of .greenDarken to form on Contact.html
 .section2, 
 .section6,
 main,
@@ -24,6 +23,8 @@ section,
 a {
     color: $secondary;
 }
+
+// Button and a Styles
 
 nav a:hover,
 nav a:focus {
@@ -66,6 +67,8 @@ form input[type="button"]:focus {
     border: $secondary 5px solid;
 }
 
+// Social Hover Styles
+
 .contactSocialIcons i.fa-facebook-f:hover, 
 .contactSocialIcons i.fa-instagram:hover, 
 .contactSocialIcons i.fa-twitter:hover, 
@@ -92,11 +95,6 @@ form input[type="button"]:focus {
     background-color: $tertiary;
     border: $secondary 1px solid;
 }
-
-// .contactSocialIcons li:hover,
-// .contactSocialIcons li:focus {
-//     background-color: red;
-// }
 
 // contact form hover & focus styles
 

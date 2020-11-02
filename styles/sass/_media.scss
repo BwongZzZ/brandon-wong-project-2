@@ -52,7 +52,6 @@
     }
 
     input[type="checkbox"]:checked ~ .headerContact nav ul {
-        // padding-top: 20px;
         display: block;
         background-color: $black;  
     }
@@ -192,7 +191,7 @@
     
     .section5 img {
         box-shadow: none;
-        border: #FFD300 10px solid;
+        border: $tertiary 10px solid;
         left: -10px;
     }
 
