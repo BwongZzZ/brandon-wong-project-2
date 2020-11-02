@@ -452,7 +452,6 @@ i.fa-hamburger {
 }
 
 
-
 // // Contact Media Query Styles
 
 // Contact Media Query (1200px) 
@@ -494,7 +493,6 @@ i.fa-hamburger {
 
 // Contact Media Query (950px) 
 
-
 @media (max-width: 950px) {
     
     input[type="checkbox"], 
@@ -515,23 +513,13 @@ i.fa-hamburger {
     }
 
     .contactFormBox legend {
-        left: -160px;
+        // left: -160px;
+        position: none;
     }
 
     .contactSection .mediaWrapper6 {
+        position: none;
         flex-direction: row;
-    }
-
-    .contactSocialIcons{
-        position: absolute;
-        bottom: -750px;
-        left: 240px;
-    }
-
-    .contactInfo {
-        position: absolute;
-        bottom: -700px;
-        right: 150px;
     }
     
 }
