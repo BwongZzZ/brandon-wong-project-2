@@ -672,7 +672,7 @@ i.fa-phone {
 
 .mainBlog .blogImg {
   position: relative;
-  top: -600px;
+  top: -550px;
 }
 
 .blogSideImgBox {
@@ -683,8 +683,10 @@ i.fa-phone {
   background-image: url("./the-restaurant-mall-assets/blog-side-image.jpg");
   background-size: contain;
   z-index: 50;
-  width: 32%;
+  width: 29%;
+  padding-top: 10px;
   position: relative;
+  top: 100px;
 }
 
 .mainBlog aside {
@@ -693,10 +695,10 @@ i.fa-phone {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 28%;
+  width: 26%;
   margin: 0 0 0 80px;
   position: absolute;
-  top: 30px;
+  top: 160px;
   z-index: 0;
 }
 
@@ -708,7 +710,7 @@ i.fa-phone {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 100%;
-  height: 400px;
+  height: 350px;
   margin-bottom: 10px;
   color: #2B331B;
 }
@@ -730,7 +732,7 @@ i.fa-phone {
 
 .mainBlog article {
   position: relative;
-  top: -600px;
+  top: -550px;
 }
 
 .mainBlog ul {
@@ -750,7 +752,7 @@ i.fa-phone {
 }
 
 .asideP {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 aside li {
@@ -776,8 +778,8 @@ aside li:last-child {
           box-shadow: -20px 20px #FFD300;
   background-image: url("../the-restaurant-mall-assets/blog-post-image.jpg");
   background-repeat: no-repeat;
-  height: 500px;
-  width: 56%;
+  height: 600px;
+  width: 60%;
 }
 
 .mainBlog div.wrapper {
@@ -790,7 +792,7 @@ aside li:last-child {
 }
 
 article {
-  width: 57%;
+  width: 61%;
   -webkit-box-shadow: -6px 6px #FFD300;
           box-shadow: -6px 6px #FFD300;
 }
@@ -825,10 +827,13 @@ article.blogComment {
 
 .blogComment .blogCommentImg1 {
   width: 300%;
+  translate: 0 -100px;
 }
 
 .blogComment .blogCommentImg2 {
   width: 200%;
+  translate: 0 -100px;
+  padding-bottom: 70px;
 }
 
 .h5Yellow.h5Top,
