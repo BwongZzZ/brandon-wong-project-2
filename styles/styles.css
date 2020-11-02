@@ -1138,6 +1138,12 @@ footer {
 @media (max-width: 1200px) {
   nav ul {
     display: none;
+    position: fixed;
+    z-index: 100;
+    position: absolute;
+    left: -9999px;
+    -webkit-transition: all 0.7s ease-in;
+    transition: all 0.7s ease-in;
   }
   input[type="checkbox"],
   i.fa-hamburger {
@@ -1172,13 +1178,12 @@ footer {
     color: #FFFFFF;
   }
   input[type="checkbox"]:checked ~ ul {
-    padding-top: 20px;
     display: block;
     background-color: #0F0F0F;
-  }
-  input[type="checkbox"]:checked ~ .headerContact nav ul {
-    display: block;
-    background-color: #0F0F0F;
+    z-index: 100;
+    left: 0px;
+    -webkit-transition: all 0.7s ease-in;
+    transition: all 0.7s ease-in;
   }
 }
 
@@ -1536,9 +1541,6 @@ footer {
   }
   .headerContact h1 {
     font-size: 50px;
-  }
-  .headerContact ul li {
-    display: none;
   }
   .contactSection {
     height: 1000px;
