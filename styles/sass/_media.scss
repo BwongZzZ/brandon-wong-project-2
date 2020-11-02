@@ -297,9 +297,6 @@ i.fa-hamburger {
         border: $tertiary 5px solid;
     }
 
-    .section5 .imgBox {
-
-    }
 
     .section5 h3 {
         font-size: 25px;
@@ -334,10 +331,207 @@ i.fa-hamburger {
 
 // Blog Media Query
 
-// Blog Media Query (1920px)
+// Blog Media Query (1090px) 
 
-@media (max-width: 1920px) {
-    .divEmptySpace {
-        height: 480px;
+@media (max-width: 1090px) {
+
+    .mainBlog div.wrapper {
+        height: 1200px;
     }
+
+    .mainBlog article {
+        height: 1520px;
+    }
+
+    .mediaWrapper2 {
+        max-width: 380px;
+        width: 53%;
+        margin: 0 auto;
+    }
+
+    .mainBlog .blogImg,
+    .mainBlog article {
+        position: none;
+        top: 600px;
+    }
+
+    .mainBlog img {
+        width: 50%;
+        top: 50px;
+        left: 280px;
+    }
+
+    .mainBlog aside {
+        width: 75%;
+        top: 160px;
+        left: 80px;
+    }
+
+    .mainBlog ul {
+        text-align: center;
+    }
+
+    .mainBlog aside div{
+        height: 450px;
+    }
+
+    .mainBlog .blogImg {
+        left: -140px;
+    }
+    
+    .blogImg figure {
+        box-shadow: none;
+        border: $tertiary 8px solid;
+    }
+
+    .mainBlog article {
+        left: -135px;
+        box-shadow: none;
+        border: $tertiary 8px solid;
+    }
+
+    .mainBlog ul {
+        text-align: center;
+        left: -75px;
+        position: relative;
+    }
+
+    .blogContent.wrapper2.mediaWrapper2 h3 {
+        position: relative;
+        left:   0px;
+    }
+
+    .mainBlog h3 {
+        font-size: 26px;
+        line-height: 50px;
+        position: relative;
+        left: 70px;
+    }
+
+    legend {
+        position: relative;
+        top: 570px;
+        left: -125px;
+    }
+
+    .blogComment .blogCommentImg1,
+    .blogComment .blogCommentImg2 {
+        padding-top: 800px;
+    }
+}
+
+// Blog Media Query (900px) 
+
+@media (max-width: 900px) {
+    
+    .mainBlog .blogImg,
+    .mainBlog article {
+        position: none;
+        top: 600px;
+    }
+
+    .mainBlog img {
+        width: 100%;
+        top: 50px;
+        left: -10px;
+    }
+
+    .mainBlog aside {
+        width: 75%;
+        top: 160px;
+        left: 0px;
+    }
+
+    .mainBlog ul {
+        text-align: center;
+    }
+
+    .mainBlog aside div{
+        height: 250px;
+    }
+}
+
+
+
+// // Contact Media Query Styles
+
+// Contact Media Query (1200px) 
+
+@media (max-width: 1200px) {
+
+    .headerContact ul {
+        display: block;
+    }
+
+    input[type="checkbox"], 
+    i.fa-hamburger {
+        display: none;
+    }
+
+    .contactSocialIcons,
+    .contactSocialIcons a {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    i.fa-facebook-f, 
+    i.fa-instagram, 
+    i.fa-twitter, 
+    i.fa-whatsapp {
+        padding: 10px;
+    }
+
+    .contactInfo {
+        padding: 0px 0 0 100px;
+    }
+
+    .contactFormBox input[type="text"], 
+    .contactFormBox input[type="email"] { 
+        width: 100%;
+    }
+}
+
+// Contact Media Query (950px) 
+
+
+@media (max-width: 950px) {
+    
+    input[type="checkbox"], 
+    i.fa-hamburger {
+        display: block;
+    }
+
+    .headerContact h1 {
+        font-size: 50px;
+    }
+
+    .headerContact ul li {
+        display: none;
+    }
+
+    .contactSection {
+        height: 1000px;
+    }
+
+    .contactFormBox legend {
+        left: -160px;
+    }
+
+    .contactSection .mediaWrapper6 {
+        flex-direction: row;
+    }
+
+    .contactSocialIcons{
+        position: absolute;
+        bottom: -750px;
+        left: 240px;
+    }
+
+    .contactInfo {
+        position: absolute;
+        bottom: -700px;
+        right: 150px;
+    }
+    
 }
