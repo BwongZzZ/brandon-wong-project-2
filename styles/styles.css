@@ -482,20 +482,21 @@ i.fa-phone {
   height: 20px;
   width: 20px;
   position: absolute;
-  top: 10px;
-  left: 12.5px;
+  top: 11px;
+  left: 13.4px;
 }
 
 i.fa-users {
-  left: 7.5px;
+  left: 9.4px;
 }
 
 i.fa-file {
-  left: 13px;
+  left: 14px;
 }
 
 i.fa-phone {
-  left: 9.5px;
+  top: 12px;
+  left: 11.8px;
 }
 
 .section2 ul {
@@ -595,7 +596,7 @@ i.fa-phone {
 }
 
 .section3 p {
-  width: 85%;
+  width: 83%;
   padding-bottom: 50px;
 }
 
@@ -636,8 +637,10 @@ i.fa-phone {
 
 .section5 img {
   position: relative;
-  top: -45px;
+  top: -23px;
   left: 20px;
+  -webkit-box-shadow: -20px 20px #FFD300;
+          box-shadow: -20px 20px #FFD300;
 }
 
 .section5 .contentBox {
