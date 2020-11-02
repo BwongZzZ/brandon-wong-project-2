@@ -867,9 +867,6 @@ legend {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: flex-strt;
-      -ms-flex-pack: flex-strt;
-          justify-content: flex-strt;
   width: 65%;
 }
 
@@ -879,6 +876,7 @@ textarea {
   background-color: #2B331B;
   color: #FFFFFF;
   padding: 10px 0 20px 40px;
+  letter-spacing: 2px;
 }
 
 input[type="text"]::-webkit-input-placeholder,
@@ -951,9 +949,13 @@ form input[type="button"] {
   font-size: 25px;
 }
 
+.contactFormBox {
+  padding-bottom: 220px;
+}
+
 .contactSocialIcons,
 .contactInfo {
-  padding: 100px 0 0 100px;
+  padding: 150px 0 0 100px;
 }
 
 .contactInfo {
@@ -965,6 +967,37 @@ form input[type="button"] {
 a[href^="#infoEmail"] {
   padding-top: 20px;
   font-size: 18px;
+}
+
+.contactFormBox legend {
+  background-color: #171B0E;
+  -webkit-box-shadow: 20px 20px #FFD300;
+          box-shadow: 20px 20px #FFD300;
+  padding: 50px 0px 50px 50px;
+  position: relative;
+  left: -75px;
+  bottom: -350px;
+}
+
+.contactFormBox input[type="text"],
+.contactFormBox input[type="email"] {
+  margin-top: 20px;
+}
+
+.contactFormBox input[type="text"],
+.contactFormBox input[type="email"],
+.contactFormBox textarea {
+  background-color: #171B0E;
+  margin-bottom: 20px;
+}
+
+.contactFormBox textarea {
+  padding: 20px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.contactFormBox form input[type="button"] {
+  margin-bottom: 10px;
 }
 
 footer {

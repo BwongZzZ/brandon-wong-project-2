@@ -365,7 +365,6 @@ form {
 legend {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-strt;
     width: 65%;
 }
 
@@ -375,6 +374,7 @@ textarea {
     background-color: $primary;
     color: $secondary;
     padding: 10px 0 20px 40px;
+    letter-spacing: 2px;
 }
 
 input[type="text"]::placeholder,
@@ -420,8 +420,6 @@ form input[type="button"] {
     width: 100%;
 }
 
-
-
 // Contact Section Styles
 
 .contactSocialIcons {
@@ -432,9 +430,13 @@ form input[type="button"] {
     font-size: 25px;
 }
 
+.contactFormBox{
+    padding-bottom: 220px;
+}
+
 .contactSocialIcons, 
 .contactInfo {
-    padding: 100px 0 0 100px;
+    padding: 150px 0 0 100px;
 }
 
 .contactInfo {
@@ -447,3 +449,41 @@ a[href^="#infoEmail"] {
     padding-top: 20px;
     font-size: 18px;
 }
+
+// Contact Form Styles
+
+.contactFormBox legend {
+    background-color: $almostBlack;
+    box-shadow: 20px 20px $tertiary;
+    padding: 50px 0px 50px 50px;
+
+    position: relative;
+    left: -75px;
+    bottom: -350px;
+}
+
+.contactFormBox input[type="text"],
+.contactFormBox input[type="email"] {
+    margin-top: 20px;
+}
+
+.contactFormBox input[type="text"],
+.contactFormBox input[type="email"],
+.contactFormBox textarea {
+    background-color: $almostBlack;
+    margin-bottom: 20px;
+}
+
+.contactFormBox textarea {
+    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.contactFormBox form input[type="button"] {
+    margin-bottom: 10px;
+}
+
+// .contactFormBox input[type="text"],
+// .contactFormBox input[type="email"] {
+//     
+// }
