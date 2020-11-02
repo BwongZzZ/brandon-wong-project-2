@@ -947,6 +947,7 @@ form input[type="button"] {
       justify-content: space-around;
   width: 18%;
   font-size: 25px;
+  color: #FFD300;
 }
 
 .contactFormBox {
@@ -964,6 +965,13 @@ form input[type="button"] {
   width: 25%;
 }
 
+i.fa-facebook-f,
+i.fa-instagram,
+i.fa-twitter,
+i.fa-whatsapp {
+  color: #FFD300;
+}
+
 a[href^="#infoEmail"] {
   padding-top: 20px;
   font-size: 18px;
@@ -976,7 +984,7 @@ a[href^="#infoEmail"] {
   padding: 50px 0px 50px 50px;
   position: relative;
   left: -75px;
-  bottom: -350px;
+  bottom: -360px;
 }
 
 .contactFormBox input[type="text"],
@@ -992,7 +1000,7 @@ a[href^="#infoEmail"] {
 }
 
 .contactFormBox textarea {
-  padding: 20px;
+  padding: 30px 35px;
   font-family: 'Barlow', sans-serif;
 }
 
