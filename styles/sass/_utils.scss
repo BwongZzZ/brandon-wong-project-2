@@ -66,19 +66,46 @@ form input[type="button"]:focus {
     border: $secondary 5px solid;
 }
 
-i.fa-facebook-f, 
-i.fa-instagram, 
-i.fa-twitter, 
-i.fa-whatsapp {
-    padding: 10px;
+.contactSocialIcons i.fa-facebook-f:hover, 
+.contactSocialIcons i.fa-instagram:hover, 
+.contactSocialIcons i.fa-twitter:hover, 
+.contactSocialIcons i.fa-whatsapp:hover,
+.contactSocialIcons i.fa-facebook-f:focus, 
+.contactSocialIcons i.fa-instagram:focus, 
+.contactSocialIcons i.fa-twitter:focus, 
+.contactSocialIcons i.fa-whatsapp:focus {
+    color: $almostBlack;
+    background-color: $secondary;
+    border: $secondary 1px solid;
 }
+
+.contactSocialIcons a:hover, 
+.contactSocialIcons a:focus {
+    color: $black;
+    background-color: $secondary;
+    border: $secondary 1px solid;
+}
+
+.contactInfo a:hover, 
+.contactInfo a:focus {
+    color: $black;
+    background-color: $tertiary;
+    border: $secondary 1px solid;
+}
+
+// .contactSocialIcons li:hover,
+// .contactSocialIcons li:focus {
+//     background-color: red;
+// }
+
+// contact form hover & focus styles
 
 .contactFormBox input[type="text"]:hover, 
 .contactFormBox input[type="email"]:hover,
 .contactFormBox textarea:hover,
 .contactFormBox input[type="text"]:focus, 
-.contactFormBox input[type="text"]:focus, 
-.contactFormBox textarea:hover:focus {
+.contactFormBox input[type="email"]:focus, 
+.contactFormBox textarea:focus {
     color: $black;
     background-color: $tertiary;
     border: $secondary 5px solid;

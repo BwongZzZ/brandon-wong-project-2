@@ -335,19 +335,39 @@ form input[type="button"]:focus {
   border: #FFFFFF 5px solid;
 }
 
-i.fa-facebook-f,
-i.fa-instagram,
-i.fa-twitter,
-i.fa-whatsapp {
-  padding: 10px;
+.contactSocialIcons i.fa-facebook-f:hover,
+.contactSocialIcons i.fa-instagram:hover,
+.contactSocialIcons i.fa-twitter:hover,
+.contactSocialIcons i.fa-whatsapp:hover,
+.contactSocialIcons i.fa-facebook-f:focus,
+.contactSocialIcons i.fa-instagram:focus,
+.contactSocialIcons i.fa-twitter:focus,
+.contactSocialIcons i.fa-whatsapp:focus {
+  color: #171B0E;
+  background-color: #FFFFFF;
+  border: #FFFFFF 1px solid;
+}
+
+.contactSocialIcons a:hover,
+.contactSocialIcons a:focus {
+  color: #0F0F0F;
+  background-color: #FFFFFF;
+  border: #FFFFFF 1px solid;
+}
+
+.contactInfo a:hover,
+.contactInfo a:focus {
+  color: #0F0F0F;
+  background-color: #FFD300;
+  border: #FFFFFF 1px solid;
 }
 
 .contactFormBox input[type="text"]:hover,
 .contactFormBox input[type="email"]:hover,
 .contactFormBox textarea:hover,
 .contactFormBox input[type="text"]:focus,
-.contactFormBox input[type="text"]:focus,
-.contactFormBox textarea:hover:focus {
+.contactFormBox input[type="email"]:focus,
+.contactFormBox textarea:focus {
   color: #0F0F0F;
   background-color: #FFD300;
   border: #FFFFFF 5px solid;
@@ -1039,6 +1059,8 @@ form input[type="button"] {
   width: 18%;
   font-size: 25px;
   color: #FFD300;
+  position: relative;
+  z-index: 1;
 }
 
 .contactFormBox {
@@ -1048,6 +1070,8 @@ form input[type="button"] {
 .contactSocialIcons,
 .contactInfo {
   padding: 150px 0 0 100px;
+  position: relative;
+  z-index: 1;
 }
 
 .contactInfo {
@@ -1064,7 +1088,7 @@ i.fa-whatsapp {
 }
 
 a[href^="#infoEmail"] {
-  padding-top: 20px;
+  margin-top: 20px;
   font-size: 18px;
 }
 
