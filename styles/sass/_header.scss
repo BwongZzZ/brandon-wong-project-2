@@ -52,7 +52,6 @@ header img {
     width: 52%;
 }
 
-
 // Blog Header Unique Styles
 
 .headerBlog {
@@ -76,3 +75,11 @@ header img {
     background-image: url("../the-restaurant-mall-assets/contact-header.jpg");
     height: 70vh;
 }
+
+// Hamburger Menu Styles
+
+input[type="checkbox"], 
+    i.fa-hamburger {
+    display: none;
+}
+
