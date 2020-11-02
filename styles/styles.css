@@ -1147,17 +1147,38 @@ footer {
     height: 84px;
     width: 84px;
     position: absolute;
-    top: 6px;
-    right: 7px;
-    border-radius: -10px -10px 0 0;
-    opacity: 0.7;
+    top: 0px;
+    right: 15px;
+    opacity: 0;
+    width: 80px;
+    height: 75px;
+    z-index: 100;
+    position: fixed;
   }
   i.fa-hamburger {
     position: absolute;
-    top: 22px;
-    right: 23px;
+    top: 8px;
+    right: 30px;
     font-size: 50px;
     color: #FFD300;
+    z-index: 50;
+    position: fixed;
+  }
+  input[type="checkbox"]:hover ~ i.fa-hamburger,
+  input[type="checkbox"]:focus ~ i.fa-hamburger {
+    color: #0F0F0F;
+  }
+  input[type="checkbox"]:active ~ i.fa-hamburger {
+    color: #FFFFFF;
+  }
+  input[type="checkbox"]:checked ~ ul {
+    padding-top: 20px;
+    display: block;
+    background-color: #0F0F0F;
+  }
+  input[type="checkbox"]:checked ~ .headerContact nav ul {
+    display: block;
+    background-color: #0F0F0F;
   }
 }
 
