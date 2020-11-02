@@ -1,6 +1,6 @@
-// Home Media Query 
+// Home Media Query Styles
 
-// Home Media Query (1200px)
+// Home Media Query Styles (1200px)
 
 @media (max-width: 1200px) {
     // Home Nav Hamburger Styles
@@ -80,18 +80,30 @@ i.fa-hamburger {
 
 }
 
-// Home Section 1 Media Query (max-width:950px)
+// Home Section 1 Styles Media Query (max-width:950px)
 @media (max-width: 950px) {
+
+    img {
+        width: 100%;
+    }
+
     h1 {
-        top: 100px;
+        top: 60px;
+        left: 40px;
+        font-size: 40px;
     }
 
     .section1 h2 {
         font-size: 40px;
+        line-height: 50px;
     }
 
-    .wrapper4 {
-        max-width: 580px;
+    .section1 p {
+        padding-bottom: 20px;
+    }
+
+    .mediaWrapper {
+        max-width: 320px;
         width: 100%;
         margin: 0 auto;
     }
@@ -107,13 +119,25 @@ i.fa-hamburger {
         width: 100%;
     }
 
+    .section2 h3 {
+        font-size: 37px;
+        line-height: 50px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
     .section2 .topImg,
     .section2 .bottomImg {
-        background-repeat: no-repeat;
-        width: 100%;
+        box-shadow: none;
+        width: 170%;
+        border: $tertiary 5px solid;
+    }
 
+    .section2 img {
+        width: 100%;
         box-shadow: none;
         border: $tertiary 10px solid;
+        height: 298px;  
     }
 
     .section2 .topContent,
@@ -121,7 +145,7 @@ i.fa-hamburger {
         align-self: center;
         margin-right: 0;
         margin-left: 0;
-        width: 70%;    
+        width: 70%;  
     }
 
     .section2 .bottomContent {
@@ -146,10 +170,167 @@ i.fa-hamburger {
         width: 100%;
     }
 
+    // Home Section 3 Styles Media Query (max-width:950px)
+
+    .section3 div {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .section3 h3 {
+        line-height: 50px;
+        padding: 50px 0 20px 0;
+    }
+
+    .section3 p {
+        padding-bottom: 20px;   
+    }
+
+    .section3 [type="button"] {
+        width: 50%;
+        padding: 10px;
+    }
+
+
+    // Home Section 5 Styles Media Query (max-width:950px)
+
+    .section5 ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0 60px 0;
+        text-align: center;
+    }
+
+    .section5 img {
+        box-shadow: none;
+        width: 100%;
+        border: $tertiary 5px solid;
+    }
+
+    .section5 .contentBox {
+        margin: 0;
+    }
+    
+    .section5 img {
+        box-shadow: none;
+        border: #FFD300 10px solid;
+        left: -10px;
+    }
+
+    .section5 h3 {
+        font-size: 37px;
+        padding-top: 100px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .section5 [type="button"] {
+        padding: 10px 10px;
+        align-self: center;
+    }
+
+    .section6 ul {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .section6 li {
+        margin: 20px 0;
+    }
+
+    .section6 li {
+        border: $tertiary 5px solid;
+    }
 }
 
+// Home Section 1 Styles Media Query (max-width:480px)
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+        line-height: 50px;
+        top: 230px;
+        left: 40px;
+    }
+
+    .section1 ul {
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+
+    .section1 h2 {
+        font-size: 25px;
+        line-height: 50px;
+    }
 
 
+    // Home Section 2 Styles Media Query (max-width:480px)
+
+    .section2 h3 {
+        font-size: 28px;
+        line-height: 50px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .section2 .topImg,
+    .section2 .bottomImg {
+        border: $tertiary 5px solid;
+        margin: 50px 0;
+    }
+
+    // Home Section 3 Styles Media Query (max-width:480px)
+
+    .section3 div {
+        padding: 50px 0;
+    }
+
+    .section3 [type="button"] {
+        width: 50%;
+    }
+
+    // Home Section 5 Styles Media Query (max-width:480px)
+
+    .section5 img {
+        top: 0;
+        left: -2px;
+        border: $tertiary 5px solid;
+    }
+
+    .section5 .imgBox {
+
+    }
+
+    .section5 h3 {
+        font-size: 25px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .section5 ul {
+        padding: 50px 0 60px 0;
+        text-align: center;
+    }
+
+    .section5 [type="button"] {
+        padding: 10px 10px;
+    }
+
+    // Home Section 6 Styles Media Query (max-width:480px)
+
+    .section6 ul {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .section6 li {
+        margin: 20px 0;
+    }
+
+    .section6 li {
+        border: $tertiary 5px solid;
+    }
+}
 
 // Blog Media Query
 
