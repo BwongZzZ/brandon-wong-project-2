@@ -251,6 +251,10 @@ nav {
   letter-spacing: 1px;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   font-size: 22.4;
   line-height: 41.6px;
@@ -271,6 +275,10 @@ section,
 .headerBlog section,
 .headerContact section {
   background-color: #2B331B;
+}
+
+a {
+  color: #FFFFFF;
 }
 
 html {
@@ -922,6 +930,41 @@ form input[type="button"] {
   border: #FFD300;
   color: #0F0F0F;
   padding: 10px 0;
+}
+
+.headerContact h1 {
+  position: relative;
+  top: 115px;
+  left: 35px;
+  width: 100%;
+}
+
+.contactSocialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 18%;
+  font-size: 25px;
+}
+
+.contactSocialIcons,
+.contactInfo {
+  padding: 100px 0 0 100px;
+}
+
+.contactInfo {
+  padding-top: 30px;
+  padding-left: 108px;
+  width: 25%;
+}
+
+a[href^="#infoEmail"] {
+  padding-top: 20px;
+  font-size: 18px;
 }
 
 footer {
